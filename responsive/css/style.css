@@ -1,0 +1,186 @@
+@charset "UTF-8";
+
+.question--title {
+  text-align: center;
+}
+
+.Q1-box {
+  width: 400px;
+  height: 400px;
+  background: #ff0000;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 960px) {
+  .Q1-box {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+.Q2-box {
+  width: 300px;
+  height: 300px;
+  background: #ff0000;
+  margin: 0 auto;
+}
+@media screen and (max-width: 960px) {
+  .Q2-box {
+    background: #007bff;
+  }
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.Q3-box {
+  width: 300px;
+  height: 300px;
+  background: #0008ff;
+  margin-right: 150px;
+}
+
+.green-box {
+  width: 300px;
+  height: 300px;
+  background: #22ff00;
+}
+
+@media screen and (max-width: 960px) {
+  .Q3-box {
+    margin-right: 50px;
+  }
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.container2 {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.blue-box {
+  width: 300px;
+  height: 300px;
+  background: #0008ff;
+  float: right;
+}
+
+.red-box {
+  width: 300px;
+  height: 300px;
+  background: #ff0000;
+  float: left;
+}
+
+@media screen and (max-width: 960px) {
+  .blue-box {
+    float: none;
+  }
+  .red-box {
+    float: none;
+  }
+}
+
+.container-flexbox {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.p-relative {
+  position: relative;
+}
+.Q5-A {
+  width: 300px;
+  height: 300px;
+  background: #ff0000;
+}
+.Q5-B {
+  width: 300px;
+  height: 300px;
+  background: #0008ff;
+}
+.Q5-C {
+  width: 300px;
+  height: 300px;
+  background: #ff8400;
+}
+
+@media screen and (max-width: 960px) {
+  .container-flexbox {
+    flex-direction: row-reverse;
+  }
+}
+
+.container3 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.Q6-A {
+  width: 300px;
+  height: 300px;
+  background: #00ff51;
+}
+.Q6-B {
+  width: 300px;
+  height: 300px;
+  background: #d4ff00;
+}
+
+.Q6-C {
+  width: 300px;
+  height: 300px;
+  background: #ff00e1;
+}
+
+@media screen and (max-width: 960px) {
+  .Q6-C {
+    order: 1;
+  }
+  .Q6-A {
+    order: 2;
+  }
+  .Q6-B {
+    order: 3;
+  }
+}
+
+.Q7-bluebox {
+  display: none;
+  width: 300px;
+  height: 300px;
+  background: #0008ff;
+}
+
+.Q7-redbox {
+  width: 300px;
+  height: 300px;
+  background: #ff0000;
+}
+
+.Q7-greenbox {
+  width: 300px;
+  height: 300px;
+  background: #00ff51;
+}
+@media screen and (max-width: 960px) {
+  .Q7-redbox {
+    display: none;
+  }
+  .Q7-bluebox {
+    display: block;
+  }
+}
